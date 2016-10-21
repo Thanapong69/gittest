@@ -14,7 +14,7 @@ app.get('/', function (req, res) {
 
 app.get('/page1', function (req, res) {
   res.send(`
-    <body bgcolor = "#FFD700">
+    <body bgcolor = "">
       <a href="/">Index</a>
       <a href="/page1">page1</a>
       <a href="/page2">page2</a>
